@@ -18,6 +18,36 @@
 
 }
 
+@import url(//db.onlinewebfonts.com/c/dc1c40d3357c81cfea1efc81deea2f90?family=Comfortaa);
+
+@import url(//db.onlinewebfonts.com/c/5fc6f4fd75e944a52a342ab2c7f100f1?family=Montserrat);
+
+@font-face {
+	font-family: "Comfortaa"; src: url("//db.onlinewebfonts.com/t/dc1c40d3357c81cfea1efc81deea2f90.eot"); 
+	src: url("//db.onlinewebfonts.com/t/dc1c40d3357c81cfea1efc81deea2f90.eot?#iefix") 
+	format("embedded-opentype"), 
+	url("//db.onlinewebfonts.com/t/dc1c40d3357c81cfea1efc81deea2f90.woff2") 
+	format("woff2"), 
+	url("//db.onlinewebfonts.com/t/dc1c40d3357c81cfea1efc81deea2f90.woff") 
+	format("woff"), 
+	url("//db.onlinewebfonts.com/t/dc1c40d3357c81cfea1efc81deea2f90.ttf") 
+	format("truetype"), 
+	url("//db.onlinewebfonts.com/t/dc1c40d3357c81cfea1efc81deea2f90.svg#Comfortaa") 
+	format("svg"); }
+
+	@font-face {
+		font-family: "Montserrat"; 
+		src: url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.eot"); 
+		src: url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.eot?#iefix") 
+		format("embedded-opentype"), 
+		url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.woff2") 
+		format("woff2"), 
+		url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.woff") 
+		format("woff"), 
+		url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.ttf")
+		format("truetype"), 
+		url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.svg#Montserrat") 
+		format("svg"); }
 
 html, body{
 	padding: 0;
