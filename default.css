@@ -190,7 +190,7 @@ header {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 3.2em);
+        width: calc(100% + 3.5em);
     }
 /*------------*/
 
@@ -356,7 +356,7 @@ section {
 }
 
 #purple-mode{
-	background-color: #884e7c;
+	background-color: #7E4C74;
 }
 
 #settings-note{
