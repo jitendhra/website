@@ -18,69 +18,54 @@
     <body>
 
         <section class="s1">
-            <div class="main-container ">
-                <div class="greeting-wrapper">
-                   <h1>Hello! My Name Is Jitendhra Ramasamy</h1>
+
+            <div class="nav-wrapper">
+                <div class="box-wrapper">
+                    <div id=box >
+                        <a href="index.html#home" >
+                            <img id="Header_pic" src="images/Header_Logo.png" alt="">
+                        </a>
+                    </div>              
                 </div>
 
-                <div class="intro-wrapper">
-                    <div class="nav-wrapper">
-                        <div class="box-wrapper">
-                            <div id=box >
-                                <h4>JRR</h4>
-                            </div>
-
-                           <!-- <div id=dot-2 >
-                                <h5>R</h5>
-                            </div>
-
-                            <div id=dot-3 >
-                                <h5>R</h5>
-                            </div>-->
-
-                        </div>
-
-                        <ul id="navigation">
-                            <li><a href="index.html#contact">Contact</a></li> 
-                            
-                        </ul>
-                    </div>
-
-                    <div class="left-column">
-                        <img id="profile_pic" src="images/Jithu.jpg">
-                        <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
-
-                        <div id="theme-options-wrapper">
-                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
-                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
-                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-                        </div>
-
-                        <p id="settings-note">*Theme settings will be save for <br> your next visit</p>
-                    </div>
-
-                    <div class="right-column">
-                       <div id="preview-shadow">
-                        <div id="preview">
-                            <div id="corner-tl" class="corner"></div>
-                            <div id="corner-tr" class="corner"></div>
-                            <h3>Who Am I</h3>
-                            <p>I'M a Dot Net Developer and Computer Engineer</p>
-                            <div id="corner-br" class="corner"></div>
-                            <div id="corner-bl" class="corner"></div>
-                        </div>
-                       </div>
-                    </div>
-                </div>
+                <ul id="navigation">
+                    <li><a href="index.html#home">Home</a></li> 
+                    <li><a href="index.html#about-me">Aboutme</a></li>
+                    <li><a href="index.html#my_projects">Works</a></li>  
+                    <li><a href="index.html#contact">Contact</a></li> 
+                    
+                </ul>
             </div>
-        </section>
+     
+          <header>
+            <div class="main-container ">
 
+                <section class="intro" id="home">
+                    <h1 class="section__title section__title--intro">
+                        Hello!, My Name is <strong>Jitendhra Ramasamy</strong>
+                    </h1>
+                    <p class="section__subtitle section__subtitle--intro">
+                        I'M a Dot Net Developer and Computer Enginner</p>
+                    <img src="images/Profile_Pic.jpeg" alt="a picture of Jitendhra" id="profile_pic">
+                </section>
+                <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+                <div id="theme-options-wrapper">
+                    <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                    <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                    <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                    <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                </div>
+
+                <p id="settings-note">*Theme settings will be save for <br> your next visit</p>
+            </div>
+          </header>
+        </section>
         <section class="s2">
             <div class="main-container ">
                 <div class="main-container">
 
-                    <div class="about-wrapper">
+                    <div class="about-wrapper" id="about-me">
                         <div class="about-me">
                             <h4>More About Me</h4>
                             <p>Debugging is twice as hard as writing the code in the first place. I am a kind
@@ -118,7 +103,7 @@
                         </div>
                     </div>
 
-                        <div class="social-links">
+                        <div class="social-links" id="social-links">
                             <img id="social_img" src="images/img1.jpg">
                             <h3>Find me on is Under Progressing.... </h3>
 
@@ -132,8 +117,8 @@
             </div>
         </section>
 
-        <section class="s1">
-            <div class="main-container ">
+        <section class="s3">
+            <div class="main-container" id="my_projects">
                 <h3 style="text-align: center;">Some of My Projects</h3>
 
                 <div class="post-wrapper">
@@ -176,12 +161,10 @@
             </div>
         </section>
 
-        <section class="s2">
+        <section class="s4">
             <div class="main-container ">
                 <h3 style="text-align: center;">Contact Me</h3>
-
                 <form id="contact-form">
-
                     <a name="contact"></a>
 
                     <label>Name</label>
@@ -199,6 +182,14 @@
                     <input id="submit-btn" type="submit" value="Send">
                 </form>
             </div>
+        </section>
+
+        <section class="s5">
+            <div id=box >
+                <a href="index.html#home" >
+                    <img id="Footer_Logo_pic" src="images/Header_Logo.png" alt="">
+                </a>
+            </div> 
         </section>
 
         <script type="text/javascript" src="script_theme.js"></script>
