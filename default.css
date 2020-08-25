@@ -322,7 +322,7 @@ header {
 }
 
 section {
-    padding: 5em 2em;
+    padding: 5em 3em;
 }
 
 #theme-options-wrapper{
@@ -522,12 +522,14 @@ section {
 
 @media screen and (max-width: 1200px){
 	.main-container{
-		width: 85%;
+		width:95%;
 	}
 }
 
 @media screen and (max-width: 800px){
 	.intro-wrapper{
+		margin: 0 auto;
+		width: min-content;
 		grid-template-columns: 1fr;
 		grid-template-areas: 
 			'nav-wrapper'
