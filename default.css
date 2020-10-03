@@ -251,7 +251,7 @@ header {
 .left-contact_column{
 	grid-area:left-contact_column ;
 	border: 1px solid var(--borderColor);
-	padding-top: 80px;
+	padding-top: 60px;
 }
 
 .right-contact_column{
