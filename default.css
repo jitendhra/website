@@ -244,7 +244,6 @@ header {
 	display: grid;
 	grid-template-columns:  1fr 1fr;
 	grid-template-areas: 
-
 	'left-contact_column right-contact_column'
 	;
 }
@@ -252,14 +251,14 @@ header {
 .left-contact_column{
 	grid-area:left-contact_column ;
 	border: 1px solid var(--borderColor);
-	padding-top: 60px;
+	padding-top: 80px;
 }
 
 .right-contact_column{
 	grid-area:right-contact_column ;
 	border: 1px solid var(--borderColor);
 	padding-bottom: 100px;
-	padding-top: 110px;
+	padding-top: 100px;
 }
 
 #Header_pic{
